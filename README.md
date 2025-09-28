@@ -1,38 +1,23 @@
-# sv
+# 😄 Tailwind + Svelte Practice
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This project is not meant to be an exact clone, but rather a practice exercise to see how easy it is to build UIs with **Tailwind CSS** and **Svelte**.
 
-## Creating a project
+Following a modern _mobile-first_ approach, as recommended by Google — so far, only the mobile version has been implemented.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 📦 Requirements
 
-```sh
-# create a new project in the current directory
-npx sv create
+Make sure you have the following installed:
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Git** → `brew install git`
+- **Bun** → `brew install oven-sh/bun/bun`
 
-## Developing
+## 🚀 Getting Started
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone the repository and start the development server:
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone https://github.com/harryqt/hornyangel-tailwind
+cd hornyangel-tailwind
+bun install
+bun dev
 ```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
